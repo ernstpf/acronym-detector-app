@@ -832,8 +832,8 @@ legend {
 
 .container form legend {
   font-size: 36px;
-  color: #333;
-  font-weight: 800;
+  color: #222;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 59px;
 }
