@@ -33,7 +33,11 @@ function App() {
             <span>SMH</span>
           </div>
         </fieldset>
+        <div className="results">
+ROFL
+      </div>
       </form>
+      
     </div>
   );
 }
