@@ -15,8 +15,10 @@ function App() {
       updateAcronym(searchValue)
       updateDefinition(dictionary.get(searchValue))
     }
-    else
+    else{
+      updateAcronym('')
       updateDefinition('')
+    }
   }
   
 
