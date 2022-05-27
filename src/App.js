@@ -1,10 +1,15 @@
 import './App.css';
-
-function handleChange(event) {
-  console.log(event.target.value);
-}
+import { useState } from 'react'
 
 function App() {
+
+  const [searchValue, updatesSearchValue] = useState(null)
+
+  function handleChange(event) {
+    updatesSearchValue(event.target.value);
+    console.log(event.target.value);
+  }
+
   return (
     <div className="container">
       <>
@@ -34,7 +39,7 @@ function App() {
           </div>
         </fieldset>
         <div className="results">
-ROFL
+        {searchValue}
       </div>
       </form>
       
