@@ -3,10 +3,11 @@ import { useState } from 'react'
 
 function App() {
 
-  const [searchValue, updatesSearchValue] = useState(null)
+  const [acronym, updateAcronym] = useState(null)
+  const [definition, updateDefinition] = useState(null)
 
   function handleChange(event) {
-    updatesSearchValue(event.target.value);
+    updateDefinition(event.target.value);
     console.log(event.target.value);
   }
 
@@ -39,7 +40,7 @@ function App() {
           </div>
         </fieldset>
         <div className="results">
-        {searchValue}
+        {definition}
       </div>
       </form>
       
