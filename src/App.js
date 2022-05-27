@@ -6,10 +6,19 @@ function App() {
   const [acronym, updateAcronym] = useState(null)
   const [definition, updateDefinition] = useState(null)
 
+  const dictionary = new Map();
+  dictionary.set('ROFL', 'Rolling on the Floor Laughing');
+
   function handleChange(event) {
-    updateDefinition(event.target.value);
-    console.log(event.target.value);
+    let searchValue = event.target.value
+    if(dictionary.has(searchValue)){
+      updateAcronym(searchValue)
+      updateDefinition(dictionary.get(searchValue))
+    }
+    else
+      updateDefinition('')
   }
+  
 
   return (
     <div className="container">
@@ -40,7 +49,8 @@ function App() {
           </div>
         </fieldset>
         <div className="results">
-        {definition}
+        <h2>{acronym}</h2>
+        <p>{definition}</p>
       </div>
       </form>
       
