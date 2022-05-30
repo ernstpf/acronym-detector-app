@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +34,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Youngsters have started using multiple abbreviations or acronyms to ensure quick communication when texting. There’s a pool of words including ROFL, LMK, NVM, TBH, and more that serve that specific purpose. But not everyone is aware of these abbreviations. That is where this app will assist them by finding the full form of all the acronyms and making their communication process hassle-free.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernstpf/acronym-lookup-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernstpf/acronym-lookup-app/issues"
+  },
+  "homepage": "https://github.com/ernstpf/acronym-lookup-app#readme",
+  "devDependencies": {
+    "prettier": "2.6.2"
   }
 }
