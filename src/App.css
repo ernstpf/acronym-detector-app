@@ -923,6 +923,7 @@ legend {
 }
 
 .container form .suggestion-wrap span {
+  cursor: pointer;
   font-size: 14px;
   font-family: 'Helvetica', sans-serif;
   display: inline-block;
