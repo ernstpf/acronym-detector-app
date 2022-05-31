@@ -827,7 +827,7 @@ legend {
   -ms-flex-align: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  background: url("../public/youngster.png");
+  background: url("./images/youngster.png");
   background-size: cover;
   background-position: center center;
   padding: 15px;
@@ -868,7 +868,6 @@ legend {
   padding: 10px 32px 10px 70px;
   font-size: 18px;
   color: #666;
-  border-radius: 34px;
 }
 
 .container form .inner-form .input-field input.placeholder {
