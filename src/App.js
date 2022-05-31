@@ -23,6 +23,7 @@ function App() {
   }
 
   function searchDictionary(searchValue) {
+    searchValue = searchValue.toUpperCase();
     if (dictionary.has(searchValue)) {
       updateAcronym(searchValue);
       updateDefinition(dictionary.get(searchValue));
